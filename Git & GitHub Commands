@@ -102,7 +102,13 @@ git push origin --tags – Push tags to remote repository
 
 git checkout v1.0 – Switch to a specific tag
 
-# 10. Working with GitHub
+# 10. Deleting Files
+
+git rm # Remove a file and stage the deletion
+
+git rm -r # Remove a folder and stage the deletion
+
+# 11. Working with GitHub
 
 gh auth login – Authenticate GitHub CLI
 
@@ -115,5 +121,33 @@ gh issue list – List all issues in a repo
 gh pr create – Create a pull request
 
 gh release create <tag> – Create a GitHub release
+
+## Explination of Git Commands
+
+git init -Initializes a new Git repository in the current directory. 
+
+git clone -Creates a local copy of a remote repository.
+
+git status -Shows the current state of your working directory.
+
+git add . -Adds all changed files to the staging area.
+
+git commit -m "message" -Saves the changes with a commit message. 
+
+git push origin main -Uploads committed changes to the remote repository. 
+
+git pull origin main -Fetches and merges updates from the remote repository.
+
+## Steps to Upload This to GitHub
+
+git init git add . 
+
+git commit -m "Added Git commands cheat sheet"
+
+git branch -M main git remote add origin https://github.com/your-username/git-commands.git
+
+git push -u origin main
+
+# Your Git commands file is now on GitHub! 🎉
 
 ## This cheat sheet covers essential Git & GitHub commands.
