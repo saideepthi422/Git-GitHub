@@ -3,7 +3,7 @@ How to install git on ubuntu and windows powershell which commands need to use t
 
 ## Windows PowerShell vs. Ubuntu
 
-# 1️⃣ Windows PowerShell
+### 1️⃣ Windows PowerShell
 
 PowerShell is a Windows-based command-line shell and scripting language.
 
@@ -11,7 +11,7 @@ It is not CentOS or Linux; it is part of Microsoft Windows.
 
 It is mainly used for Windows system administration and automation.
 
-# 2️⃣ Ubuntu
+### 2️⃣ Ubuntu
 
 Ubuntu is a Linux-based operating system.
 
@@ -19,7 +19,7 @@ It is a Linux distribution (distro) built on Debian.
 
 It is commonly used for servers, development, and DevOps.
 
-# 🔹 Key Differences
+### 🔹 Key Differences
 ✅ PowerShell → Windows (not Linux or CentOS)
 ✅ Ubuntu → Linux (Debian-based OS)
 ✅ CentOS → Linux (Red Hat-based OS)
